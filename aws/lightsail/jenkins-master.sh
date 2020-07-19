@@ -38,7 +38,7 @@ cd /etc/nginx/sites-enabled
 rm default
 
 cd /etc/nginx/conf.d
-wget https://raw.githubusercontent.com/jenkins-training/jenkins-bootcamp-course/master/aws/lightsail/lightsail-jenkins.conf
+wget https://raw.githubusercontent.com/harigadhai/jenkins-bootcamp-course/master/aws/lightsail/lightsail-jenkins.conf
 
 systemctl restart nginx
 systemctl enable nginx
